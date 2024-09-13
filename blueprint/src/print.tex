@@ -1,0 +1,34 @@
+% This file makes a printable version of the blueprint
+% This file can be built locally.
+
+\documentclass[a4paper]{report}
+
+\usepackage[textwidth=14cm]{geometry}
+\usepackage{xfrac}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{relsize}
+
+\usepackage{tikz-cd}
+
+\usepackage[nameinlink, capitalize]{cleveref}
+
+\input{preamble/common}
+
+\usepackage{amsthm}
+\usepackage{etexcmds}
+\usepackage{thmtools}
+
+\input{preamble/print}
+
+\title{Arithmetic Progressions - Almost Periodicity}
+\author{Thomas Bloom, Yaël Dillies}
+
+\begin{document}
+\maketitle
+\input{chapter/main}
+\end{document}

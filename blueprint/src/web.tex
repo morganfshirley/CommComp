@@ -1,0 +1,29 @@
+% This file makes the web version of the blueprint.
+
+\documentclass{report}
+
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{hyperref}
+\usepackage{relsize}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.svg,.png,.jpg}
+\usepackage[capitalize]{cleveref}
+\usepackage[showmore, dep_graph, coverage, project=../../]{blueprint}
+
+\usepackage{tikz-cd}
+\usepackage{tikz}
+
+\input{preamble/common}
+\input{preamble/web}
+
+%\home{https://github.com/morganfshirley/CommComp/}
+\github{https://github.com/morganfshirley/CommComp/}
+\dochome{https://morganfshirley.github.io/CommComp/docs}
+
+\title{CommComp}
+\author{Thomas Bloom, Yaël Dillies}
+
+\begin{document}
+\maketitle
+\input{chapter/main}
+\end{document}
