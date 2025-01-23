@@ -2,6 +2,7 @@
 
 [![.github/workflows/push.yml](https://github.com/morganfshirley/CommComp/actions/workflows/push.yml/badge.svg)](https://github.com/morganfshirley/CommComp/actions/workflows/push.yml)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/morganfshirley/CommComp)
+[![Open in Codeanywhere](https://img.shields.io/badge/Open%20in-Codeanywhere-blue?style=flat-square&logo=codeanywhere)](https://app.codeanywhere.com/#https://github.com/morganfshirley/CommComp)
 
 The purpose of this repository is to *digitise* some mathematical definitions, theorem statements
 and theorem proofs. Digitisation, or formalisation, is a process where the source material,
